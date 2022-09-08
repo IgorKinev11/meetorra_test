@@ -3,9 +3,9 @@
 # Задача #9
 
 В базе данных есть:
- - таблица категорий товаров category (id, name) , 
- - таблица товаров product (id,category_id,name,price),
- - таблица свойств property (id,name) 
+ - ul таблица категорий товаров category (id, name) , 
+ - ul таблица товаров product (id,category_id,name,price),
+ - ul таблица свойств property (id,name) 
  - таблица значений свойств товаров property_value (product_id,property_id,value)
 Необходимо:
  - a. получить значения свойств товара, если известно его ID
