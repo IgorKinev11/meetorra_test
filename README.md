@@ -3,11 +3,8 @@
 # Задача #9
 
 В базе данных есть:
-
- 1. таблица категорий товаров category (id, name) 
- 2. таблица товаров product (id,category_id,name,price)
- 3. таблица свойств property (id,name) 
- 4. таблица значений свойств товаров property_value (product_id,property_id,value)
+ таблица категорий товаров category (id, name), таблица товаров product (id,category_id,name,price), таблица свойств property (id,name), таблица значений свойств товаров property_value (product_id,property_id,value)
+ 
 Необходимо:
  - a. получить значения свойств товара, если известно его ID
  - b. получить список названий уникальных свойств товара по названию категории
