@@ -61,10 +61,10 @@ b. получить список названий уникальных свой�
 <h4>Запрос a </h4>
 <pre>
     <code>
-	select property.name from property_value 
-	inner join property on property.id = property_value.property_id
-	inner join product on product.id = property_value.product_id
-	where product.id = 2;
+select property.name from property_value 
+inner join property on property.id = property_value.property_id
+inner join product on product.id = property_value.product_id
+where product.id = 2;
     </code>
 </pre>
 
@@ -73,7 +73,7 @@ b. получить список названий уникальных свой�
 <h4>Запрос b </h4>
 <pre>
     <code>
-	select distinct property.name from property_value
+select distinct property.name from property_value
 
 inner join property on property.id = property_value.property_id
 inner join product on product.id = property_value.product_id
