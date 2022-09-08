@@ -44,5 +44,50 @@ b. получить список названий уникальных свой�
     </code>
 </pre>
 
+<h3>Добавляем данные</h3>
+
+<pre>
+    <code>
+	insert into category (name) values ('smartphone');
+	insert into category (name) values ('laptop');
+	insert into category (name) values ('periphery');
+	
+	insert into property_value (product_id, property_id, "value") 
+		values (1, 1, 9), (3, 3, 7), (2, 4, 10), (5, 5, 10), (6, 6, 7);
+    </code>
+</pre>
+    
+<h3>Запросы </h3>
+<h4>Запрос a </h4>
+<pre>
+    <code>
+	select property.name from property_value 
+	inner join property on property.id = property_value.property_id
+	inner join product on product.id = property_value.product_id
+	where product.id = 2;
+    </code>
+</pre>
+
+Рисунок 1:
+![Alt text](https://github.com/IgorKinev11/Test/blob/main/Images/triangle.png)
+
+<h4>Запрос b </h4>
+<pre>
+    <code>
+	select distinct property.name from property_value
+
+	inner join property on property.id = property_value.property_id
+	inner join product on product.id = property_value.product_id
+	inner join category on category.id = product.category_id
+
+	where category.name = 'laptop';
+    </code>
+</pre>
+
+Рисунок 1:
+![Alt text](https://github.com/IgorKinev11/Test/blob/main/Images/triangle.png)
+
+
+
 
 
