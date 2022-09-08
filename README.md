@@ -68,7 +68,6 @@ b. получить список названий уникальных свой�
     </code>
 </pre>
 
-Рисунок 1:
 ![Alt text](https://github.com/IgorKinev11/meetorra_test/blob/main/images/query_1.PNG)
 
 <h4>Запрос b </h4>
@@ -84,7 +83,6 @@ b. получить список названий уникальных свой�
     </code>
 </pre>
 
-Рисунок 2:
 ![Alt text](https://github.com/IgorKinev11/meetorra_test/blob/main/images/query_2.PNG)
 
 
