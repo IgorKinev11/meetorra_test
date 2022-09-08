@@ -14,6 +14,7 @@ b. получить список названий уникальных свой�
 
 <h3>Создаем таблицы</h3>
 ```
+```
 CREATE TABLE category (
     id serial PRIMARY KEY,
     name VARCHAR (255)
@@ -40,6 +41,6 @@ CREATE TABLE property_value(
 	constraint fk_property foreign key(property_id) references property(id)
 );
 ```
-
+```
 
 
