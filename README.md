@@ -3,8 +3,8 @@
 # Задача #9
 
 В базе данных есть:
- - a. таблица категорий товаров category (id, name) , 
- - b. таблица товаров product (id,category_id,name,price),
+ - a. таблица категорий товаров category (id, name) 
+ - b. таблица товаров product (id,category_id,name,price)
  - c. таблица свойств property (id,name) 
  - d. таблица значений свойств товаров property_value (product_id,property_id,value)
 Необходимо:
