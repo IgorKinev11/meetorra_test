@@ -73,13 +73,10 @@ b. получить список названий уникальных свой�
 <h4>Запрос b </h4>
 <pre>
     <code>
-	select distinct property.name from property_value
-
+	select property.name from property_value 
 	inner join property on property.id = property_value.property_id
 	inner join product on product.id = property_value.product_id
-	inner join category on category.id = product.category_id
-
-	where category.name = 'laptop';
+	where product.id = 2;
     </code>
 </pre>
 
