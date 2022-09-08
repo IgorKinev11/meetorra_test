@@ -1,0 +1,22 @@
+.content {
+  float: left;
+  position:relative;
+  list-style: none;
+  margin-right: 40px;
+  background-color: #eeeeee;
+}
+
+.content > ul {
+  margin:0px;
+  padding:2px 20px;
+  position:absolute;
+  list-style-type:none;
+  background-color: gray;
+  visibility:hidden;
+  opacity:0;
+  transition:opacity 0.75s linear;
+}
+.content:hover > ul {
+  visibility:visible;
+  opacity:1;
+}

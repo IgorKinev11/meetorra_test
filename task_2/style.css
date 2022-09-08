@@ -1,0 +1,11 @@
+ul {
+  padding: 0;
+  background-color: #E8E8E8;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+}
